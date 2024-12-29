@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "970721159824",
+    "project_id": "break-113fa",
+    "storage_bucket": "break-113fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970721159824:android:64a0b22e97a1c97f218615",
+        "android_client_info": {
+          "package_name": "com.example.abreak"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Vo2OQvfEShNQZPixLk6yM1dlOIBtfPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

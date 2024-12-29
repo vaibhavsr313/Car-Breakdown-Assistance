@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Widget.Theme.Break.ActionBar.Fullscreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="background">@color/black_overlay</item>
+    </style>
+
+    <style name="Widget.Theme.Break.ButtonBar.Fullscreen" parent="">
+        <item name="background">@color/black_overlay</item>
+        <item name="buttonBarStyle">?attr/buttonBarStyle</item>
+    </style>
+</resources>

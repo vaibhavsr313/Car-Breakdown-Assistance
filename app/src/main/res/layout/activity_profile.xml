@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    android:background="@color/black">
+
+    <Button
+        android:id="@+id/Continueinprofile"
+        android:layout_width="343dp"
+        android:layout_height="62dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:background="@drawable/roundbtn"
+        android:clickable="true"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Continue"
+        android:textColor="#FEFEFE"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831" />
+
+    <EditText
+        android:id="@+id/Nameinprofile"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Name"
+        android:inputType="none|textPersonName"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.464"
+        android:drawableLeft="@drawable/name"
+        android:drawablePadding="5dp"/>
+
+    <EditText
+        android:id="@+id/phoneinprofile"
+        android:layout_width="296dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="43dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Phone number"
+        android:inputType="none|number|textPhonetic"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="5dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="30dp"
+        app:cardBackgroundColor="#45494A"
+        app:cardCornerRadius="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/Nameinprofile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Fillyourprifle"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/Profileininprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img_3" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Fillyourprifle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:fontFamily="@font/montserrat_medium"
+        android:text="Fill your Profile"
+        android:textColor="#FEFEFE"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <EditText
+        android:id="@+id/Addressinprofile"
+        android:layout_width="293dp"
+        android:layout_height="83dp"
+        android:layout_marginStart="59dp"
+        android:layout_marginEnd="59dp"
+        android:background="@drawable/roundtext"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="Address"
+        android:inputType="textMultiLine"
+        android:textColor="#FDFDFD"
+        android:textColorHint="#FDFDFD"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.591"
+        android:drawableLeft="@drawable/address"
+        android:drawablePadding="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

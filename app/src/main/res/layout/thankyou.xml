@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="600dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="80dp"
+    app:cardBackgroundColor="@color/black">
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="281dp"
+            android:layout_height="253dp"
+            android:layout_x="28dp"
+            android:layout_y="52dp"
+            android:background="@drawable/thenkench" />
+
+        <ImageView
+            android:id="@+id/closeinfeedback"
+            android:layout_width="45dp"
+            android:layout_height="42dp"
+            android:layout_x="9dp"
+            android:layout_y="19dp"
+            android:background="@drawable/baseline_close_24" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="104dp"
+            android:layout_y="324dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Thank You!"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="314dp"
+            android:layout_height="81dp"
+            android:layout_x="29dp"
+            android:layout_y="386dp"
+            android:fontFamily="@font/montserrat"
+            android:text="By making your voice heard, you help us improve our app"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/gobackhome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="112dp"
+            android:layout_y="466dp"
+            android:fontFamily="@font/montserrat_medium"
+            android:text="GO BACK HOME"
+            android:textAllCaps="true"
+            android:textColor="@color/light_blue_600"
+            android:textSize="18dp" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="182dp"
+            android:layout_height="3dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="111dp"
+            android:layout_x="94dp"
+            android:layout_y="526dp"
+            android:background="#000000" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="182dp"
+            android:layout_height="3dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="111dp"
+            android:layout_x="94dp"
+            android:layout_y="501dp"
+            android:background="#30B0FE" />
+
+    </AbsoluteLayout>
+</androidx.cardview.widget.CardView>

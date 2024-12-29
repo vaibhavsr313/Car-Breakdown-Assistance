@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bkg">
+
+    <View
+        android:id="@+id/view22222"
+        android:layout_width="100dp"
+        android:layout_height="5dp"
+        android:layout_gravity="center|bottom"
+        android:background="#fff"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019" />
+
+    <TextView
+        android:id="@+id/t3130"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Mechanic"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#F1ECEC"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/gg32"
+            android:layout_width="68dp"
+            android:layout_height="64dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/idcard"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.295" />
+
+        <TextView
+            android:id="@+id/nameinpopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom|center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_x="86dp"
+            android:layout_y="8dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Name"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F1ECEC"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.325" />
+
+
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <ImageView
+            android:id="@+id/gg3232"
+            android:layout_width="68dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="50dp"
+            android:src="@drawable/callus"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.295" />
+
+        <TextView
+            android:id="@+id/phoneinpopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom|center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:layout_x="86dp"
+            android:layout_y="6dp"
+            android:elevation="10dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="Phone No"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F1ECEC"
+            android:textSize="25dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.579"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.325" />
+
+
+    </AbsoluteLayout>
+
+    <Button
+        android:id="@+id/callmechinpopup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="765dp"
+        android:background="@drawable/roundwhitetxt"
+        android:elevation="200dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Call Him Here"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+    <Button
+        android:id="@+id/navigateinpopup"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_x="38dp"
+        android:layout_y="765dp"
+        android:background="@drawable/roundwhitetxt"
+        android:elevation="200dp"
+        android:fontFamily="@font/montserrat_semibold"
+        android:text="Navigate"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.521" />
+
+
+
+
+
+</LinearLayout>
