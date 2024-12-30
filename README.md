@@ -56,13 +56,13 @@ An aesthetically pleasing Android application designed to assist users with vehi
 ## 📱 Screenshots  
 
 ### Mechanic Homepage Page:  
-![Mechanic Homepage Page](Mechanic_Homepage.jpeg) 
+![Mechanic Homepage Page](Mechanic_homepage.jpeg) 
 
 ### Contact Us Page:  
 ![Contact Us Page](Contactus_page.jpeg) 
 
 ### User's Homepage:  
-![User's Homepage](User's_hepage.jpeg) 
+![User's Homepage](User's_homepage.jpeg) 
 
 ### Login Page:  
 ![Login Page](Login_page.jpeg) 
