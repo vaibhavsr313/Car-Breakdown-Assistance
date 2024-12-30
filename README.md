@@ -53,6 +53,34 @@ An aesthetically pleasing Android application designed to assist users with vehi
    - **Contact Us**: Access the call and mail options.  
 
 ---
+## 📱 Screenshots  
+
+### Mechanic Homepage Page:  
+![Mechanic Homepage Page](Mechanic_Homepage.jpeg) 
+
+### Contact Us Page:  
+![Contact Us Page](Contactus_page.jpeg) 
+
+### User's Homepage:  
+![User's Homepage](User's_hepage.jpeg) 
+
+### Login Page:  
+![Login Page](Login_page.jpeg) 
+
+### Admin Dashboard:  
+![Admin Dashboard](Admin_DashBaord_Photo.jpeg)  
+
+###  Mechanic Marker BottomSheet:  
+![Mechanic_marker Page](Mechanic_marker.jpeg)  
+
+### Mechanic save location page:  
+![ Mechanic save location page](Mechanic_save__location_page.jpeg)  
+
+### User's Find Mechanic Page:  
+![User's Find Mechanic Page](user's_find_mechanic.jpeg)    
+
+---
+
 ## **How to Install and Run the App** 💻  
 1. Clone the repository:  
    ```bash  
